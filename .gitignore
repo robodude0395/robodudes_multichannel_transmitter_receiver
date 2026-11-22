@@ -1,0 +1,28 @@
+# KiCad per-user and generated state
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.bak
+
+# Generated ERC reports
+erc*.rpt
+
+# Agent/workflow scratch and per-machine tool config
+docs/.review/
+.agents/
+.kiro/settings/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "transmitter_custom")(type "KiCad")(uri "${KIPRJMOD}/../transmitter/transmitter_custom.kicad_sym")(options "")(descr "Shared with the transmitter (nRF24 module symbol)"))
+  (lib (name "receiver_custom")(type "KiCad")(uri "${KIPRJMOD}/receiver_custom.kicad_sym")(options "")(descr "Receiver-only parts"))
+)

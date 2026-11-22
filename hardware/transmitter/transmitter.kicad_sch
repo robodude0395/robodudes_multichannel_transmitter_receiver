@@ -1,0 +1,510 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid 4a5aebb3-a91a-4fdb-a16a-21a9679c4afb)
+	(paper "A3")
+	(title_block
+		(title "Multichannel nRF24L01 Transmitter")
+		(date "2026-11-16")
+		(rev "0.1 draft")
+		(company "dingus")
+		(comment 1 "First draft for review - not production ready")
+	)
+	(lib_symbols)
+	(sheet
+		(at 152.4 114.3)
+		(size 63.5 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.0006)
+			(type default)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bedd872-fc65-489a-a88a-62d82545ca27")
+		(property "Sheetname" "MCU"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/4a5aebb3-a91a-4fdb-a16a-21a9679c4afb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 50.8)
+		(size 63.5 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.0006)
+			(type default)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d51f3735-2a32-4f53-a961-156b84d1a3fb")
+		(property "Sheetname" "Radio"
+			(at 281.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 281.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/4a5aebb3-a91a-4fdb-a16a-21a9679c4afb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 114.3)
+		(size 63.5 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.0006)
+			(type default)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45fae1b7-d427-41c7-b9c1-82a972767d97")
+		(property "Sheetname" "Power"
+			(at 33.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/4a5aebb3-a91a-4fdb-a16a-21a9679c4afb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 114.3)
+		(size 63.5 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.0006)
+			(type default)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbced166-df4f-4172-96fb-c51c0b8a4122")
+		(property "Sheetname" "Inputs"
+			(at 281.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 281.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/4a5aebb3-a91a-4fdb-a16a-21a9679c4afb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 177.8)
+		(size 63.5 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.0006)
+			(type default)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19959db0-f56d-4d9e-bccb-30d463050694")
+		(property "Sheetname" "Peripherals"
+			(at 281.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 281.94 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transmitter"
+				(path "/4a5aebb3-a91a-4fdb-a16a-21a9679c4afb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(text "STM32F411 Black Pill,\nprogram port and SWD header"
+		(exclude_from_sim no)
+		(at 152.4 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a75f0371-44aa-43cb-9b40-3c49edd0438a")
+	)
+	(text "nRF24L01+ PA/LNA on SPI1,\nSMA antenna"
+		(exclude_from_sim no)
+		(at 279.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3b179303-5f66-4244-a9f4-8d74410eadaa")
+	)
+	(text "USB-C charger, 3.6 V buck-boost,\n3.3 V LDOs, 5 V host boost"
+		(exclude_from_sim no)
+		(at 30.48 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6e9a5ea9-ba81-482e-9fab-e885e152563a")
+	)
+	(text "3x 74HC165 switch chain,\ngimbal and pot front end"
+		(exclude_from_sim no)
+		(at 279.4 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3d182766-7265-4a35-80f0-cd79c00456b5")
+	)
+	(text "ST7735 LCD, buzzer, microSD,\nUSB-A host port"
+		(exclude_from_sim no)
+		(at 279.4 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "846f2821-ab22-4c40-bfc2-e5ddb73c9ffc")
+	)
+	(text "Multichannel nRF24L01 transmitter: sheet overview"
+		(exclude_from_sim no)
+		(at 30.48 30.48 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e897139d-a70d-468b-825e-cd38a3d38833")
+	)
+	(polyline
+		(pts
+			(xy 93.98 126.365)
+			(xy 152.4 126.365)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f1a9d87d-9ca6-4111-9688-e8dfd27e7e98")
+	)
+	(polyline
+		(pts
+			(xy 149.86 125.095)
+			(xy 152.4 126.365)
+			(xy 149.86 127.635)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e128fc08-0ea2-45b1-87d0-4fc13621fdaa")
+	)
+	(text "rails: +3V3, +3V6, +3V3_RF, +5V_HOST"
+		(exclude_from_sim no)
+		(at 123.19 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "60d60e65-5fc8-4def-8cdc-60014e06c93a")
+	)
+	(polyline
+		(pts
+			(xy 152.4 133.985)
+			(xy 93.98 133.985)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a661e10f-7a44-4162-a7ab-418665790afe")
+	)
+	(polyline
+		(pts
+			(xy 96.52 132.715)
+			(xy 93.98 133.985)
+			(xy 96.52 135.255)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d588ad25-723b-405a-b018-7185186d8bd7")
+	)
+	(text "VBAT_SENSE, HOST_VBUS_EN"
+		(exclude_from_sim no)
+		(at 123.19 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "d5ae8989-7a82-4b21-8a75-3691dc809f58")
+	)
+	(polyline
+		(pts
+			(xy 215.9 130.175)
+			(xy 247.65 130.175)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "330e949a-e60c-4a03-8772-b73d9c59d9e2")
+	)
+	(polyline
+		(pts
+			(xy 247.65 66.675)
+			(xy 247.65 193.675)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "34a24c21-1ce2-4b5f-8fc5-09191c8fcf7f")
+	)
+	(polyline
+		(pts
+			(xy 247.65 66.675)
+			(xy 279.4 66.675)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "40cb8169-2756-4c29-a308-94b8616e9075")
+	)
+	(polyline
+		(pts
+			(xy 276.86 65.405)
+			(xy 279.4 66.675)
+			(xy 276.86 67.945)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cb367bd8-f430-4127-a626-230130c821c2")
+	)
+	(polyline
+		(pts
+			(xy 247.65 130.175)
+			(xy 279.4 130.175)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e4e10374-2493-4a38-8c19-d33704a71bee")
+	)
+	(polyline
+		(pts
+			(xy 276.86 128.905)
+			(xy 279.4 130.175)
+			(xy 276.86 131.445)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "19006c20-5a38-4276-b6bd-8a1de7d2c058")
+	)
+	(polyline
+		(pts
+			(xy 247.65 193.675)
+			(xy 279.4 193.675)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2f0e0685-966d-4c13-80d2-54be2e095ffd")
+	)
+	(polyline
+		(pts
+			(xy 276.86 192.405)
+			(xy 279.4 193.675)
+			(xy 276.86 194.945)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9a982d6f-c3ba-493a-94a8-6291c7df79a9")
+	)
+	(junction
+		(at 247.65 130.175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7091db-212b-4914-980e-233a64f33e94")
+	)
+	(text "SPI1, NRF_*"
+		(exclude_from_sim no)
+		(at 246.38 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07fb9578-1376-4f55-bc77-dbca2d2c0812")
+	)
+	(text "SR_*, AXIS, POT"
+		(exclude_from_sim no)
+		(at 246.38 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14cd971f-b7c4-41a2-815b-2d4d4f03ad86")
+	)
+	(text "SPI2, LCD, SD, USB"
+		(exclude_from_sim no)
+		(at 246.38 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9843f992-a8d1-44a9-94e2-a7f6dadb3e53")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 31.75 217.17 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1e0b2898-0edf-4c7a-b8d0-b0dcf40c5341")
+	)
+	(text "All inter-sheet signals (rails, SPI, GPIO) are global labels\nwith identical names on both sheets, so the sheet boxes\ncarry no sheet pins. Arrows show the main signal direction\nonly."
+		(exclude_from_sim no)
+		(at 31.75 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1c073e07-5369-45c8-9311-2f7bbe4e06d3")
+	)
+	(rectangle
+		(start 30.48 215.9)
+		(end 125.98 231.35)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7a5e2597-8bd1-40ee-a2bc-d1978e651f92")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
